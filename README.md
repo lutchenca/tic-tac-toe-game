@@ -1,27 +1,44 @@
-# StudyProject
+# What is this repository
+With the goal to study and learn Angular, I made a Tic-Tac-Toe game using Angular Docs and also an Youtube video tutorial as reference to understand core basics concepts of this framework. 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+# Steps made
 
-## Development server
+- Installed Angular CLI
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Created a new app 
+  
+  ```   
+  ng new <project-name>
+  ``` 
 
-## Code scaffolding
+- Went to the workspace directory and launched the application.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+cd angular-<project-directory>
+ng serve --open
+```
 
-## Build
+- Changed global styles 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Created a new component inside app folder to managed the squares on Tic-tac-toe game (called square). This is our "dumb" component. 
 
-## Running unit tests
+  ```  
+  ng g c <component-name>
+  ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- On this TS file created a new decorator (@Input) and attribute two values, also insert this variable into app component html file 
 
-## Running end-to-end tests
+- Created a new component called board. This is our "smart" component (has internal state, so they can change) and insert 03 new properties (explained on the file which function everyone has) and methods on NgOnInit
+  
+- Changed board HTML 
+- Added nebular to project
+  
+```
+ng add @nebular/theme
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Resources 
+[Angular for Beginners - Let's build a Tic-Tac-Toe PWA](https://www.youtube.com/watch?v=G0bBLvWXBvc)
+[Angular Docs Tutorial first project](https://angular.io/tutorial/toh-pt0)
+[Customizable Angular UI KIT](https://akveo.github.io/nebular/)

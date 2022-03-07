@@ -39,6 +39,6 @@ ng add @nebular/theme
 
 
 # Resources 
-[Angular for Beginners - Let's build a Tic-Tac-Toe PWA](https://www.youtube.com/watch?v=G0bBLvWXBvc)
-[Angular Docs Tutorial first project](https://angular.io/tutorial/toh-pt0)
-[Customizable Angular UI KIT](https://akveo.github.io/nebular/)
+- [Angular for Beginners - Let's build a Tic-Tac-Toe PWA](https://www.youtube.com/watch?v=G0bBLvWXBvc)
+- [Angular Docs Tutorial first project](https://angular.io/tutorial/toh-pt0)
+- [Customizable Angular UI KIT](https://akveo.github.io/nebular/)
